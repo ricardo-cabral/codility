@@ -1,4 +1,4 @@
-package br.com.rec;
+package br.com.rec.codility;
 
 public class PassingCars {
 	
