@@ -59,4 +59,41 @@ public class TestBinaryGap {
 		assertEquals(binaryGap.solution(1041), 5);
 	}
 	
+	@Test
+	public void testNegativeIntegerJava8(){
+		BinaryGap binaryGap = new BinaryGap();
+		
+		assertEquals(binaryGap.solutionJava8(-1), 0);
+	}
+	
+	@Test
+	public void testPositiveIntegerJava8_9(){
+		BinaryGap binaryGap = new BinaryGap();
+		assertEquals(binaryGap.solutionJava8(9), 2);
+	}
+	
+	@Test
+	public void testPositiveIntegerJava8_529(){
+		BinaryGap binaryGap = new BinaryGap();
+		assertEquals(binaryGap.solutionJava8(529), 4);
+	}
+	
+	@Test
+	public void testPositiveIntegerJava8_20(){
+		BinaryGap binaryGap = new BinaryGap();
+		assertEquals(binaryGap.solutionJava8(20), 1);
+	}
+	
+	@Test
+	public void testPositiveIntegerJava8_15(){
+		BinaryGap binaryGap = new BinaryGap();
+		assertEquals(binaryGap.solutionJava8(15), 0);
+	}
+	
+	@Test
+	public void testPositiveIntegerJava8_1041(){
+		BinaryGap binaryGap = new BinaryGap();
+		assertEquals(binaryGap.solutionJava8(1041), 5);
+	}
+	
 }
